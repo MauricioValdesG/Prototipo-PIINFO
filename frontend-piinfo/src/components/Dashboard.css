@@ -1,0 +1,71 @@
+.dashboard-container body,
+.dashboard-container html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+}
+
+.dashboard-container .dashboard {
+  display: flex;
+  min-height: 100vh;
+  background-color: #f4f4f9;
+}
+
+.dashboard-container .sidebar {
+  width: 250px;
+  background-color: #000000;
+  color: white;
+  padding: 20px;
+}
+
+.dashboard-container .sidebar h2 {
+  font-size: 1.5em;
+  margin-bottom: 30px;
+}
+
+.dashboard-container .sidebar nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.dashboard-container .sidebar nav ul li {
+  margin: 20px 0;
+}
+
+.dashboard-container .sidebar nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2em;
+}
+
+.dashboard-container .sidebar nav ul li a:hover {
+  text-decoration: underline;
+}
+
+.dashboard-container .content {
+  flex: 1;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.dashboard-container h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.dashboard-container button {
+  font-size: 1em;
+  padding: 10px 20px;
+}
+
+.dashboard-container footer {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.dashboard-container footer p {
+  color: #6c757d;
+}

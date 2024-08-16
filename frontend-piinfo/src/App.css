@@ -1,0 +1,47 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.navbar a {
+  color: white !important;
+  font-size: 1.2em;
+  margin: 0;
+  position: relative;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6);
+}
+
+.App-header {
+  background-image: url("/src/assets/fondo.jfif");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  position: relative;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6);
+}
+
+.content {
+  text-align: center;
+  z-index: 2;
+}
+
+h1 {
+  font-size: 3em;
+  margin: 0;
+}
+
+p {
+  font-size: 1.5em;
+  margin: 0;
+}
+
+.bg-transparent {
+  background-color: transparent !important;
+}
