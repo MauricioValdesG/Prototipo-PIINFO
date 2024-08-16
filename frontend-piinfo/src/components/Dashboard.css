@@ -27,3 +27,11 @@ body {
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 5px;
 }
+
+.footer {
+  color: #6c757d; /* Color gris para el texto */
+  background-color: transparent; /* Fondo transparente */
+  padding: 1rem; /* Mantén el padding si es necesario */
+  text-align: center; /* Centrar el texto */
+  font-size: 1rem; /* Tamaño de fuente estándar */
+}

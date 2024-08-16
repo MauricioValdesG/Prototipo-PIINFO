@@ -18,6 +18,9 @@ function App() {
           </button>
         </div>
       </header>
+      <footer className="App-footer mt-auto py-3">
+        Copyright © Cyberprev SpA 2024
+      </footer>
     </div>
   );
 }

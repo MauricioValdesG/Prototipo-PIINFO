@@ -93,6 +93,9 @@ const Profile = () => {
               </form>
             </div>
           </div>
+          <footer className="footer mt-auto py-3">
+            Copyright © Cyberprev SpA 2024
+          </footer>
         </div>
       </div>
     </div>

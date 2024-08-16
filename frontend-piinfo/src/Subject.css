@@ -1,17 +1,21 @@
 /* Encapsular todo en .subject-container */
 .subject-container {
   background-color: #f0f0f5; /* Fondo claro */
+  min-height: 100vh; /* Asegura que el contenedor ocupe toda la altura de la pantalla */
 }
 
 /* Título de la sección */
-.subject-container h2 {
-  color: white; /* Color oscuro para el texto del título */
+.subject-container h4 {
+  color: #333333; /* Color gris oscuro para el título */
   margin-bottom: 20px;
+  text-align: left; /* Alinear el título a la izquierda */
+  font-size: 2rem; /* Tamaño de fuente mayor */
+  font-weight: bold; /* Hacer el título en negrita */
 }
 
 /* Acordeón y Tarjetas */
 .subject-container .accordion .card {
-  border: none; /* Eliminar el borde de la tarjeta */
+  border: none; /* Eliminar cualquier borde */
   margin-bottom: 10px; /* Espaciado entre las tarjetas */
   background-color: transparent; /* Fondo transparente */
 }
@@ -47,8 +51,10 @@
   background-color: #ffffff; /* Fondo blanco */
   border-radius: 10px; /* Bordes redondeados */
   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+  text-align: left; /* Alinear el texto a la izquierda */
 }
 
+/* Listas */
 .subject-container .accordion .list-unstyled {
   margin-top: 10px;
   margin-bottom: 10px;
@@ -63,12 +69,15 @@
   font-size: 1rem; /* Tamaño de fuente para el botón */
 }
 
-.subject-container .btn-link {
-  color: #007bff;
-  text-decoration: none;
-  padding: 0;
-}
-
-.subject-container .btn-link:hover {
-  text-decoration: underline;
+/* Footer */
+.footer {
+  color: #6c757d; /* Color gris para el texto */
+  background-color: transparent; /* Fondo transparente */
+  padding: 1rem; /* Mantén el padding si es necesario */
+  text-align: center; /* Centrar el texto */
+  font-size: 1rem; /* Tamaño de fuente estándar */
+  position: absolute; /* Fijar el footer al fondo */
+  bottom: 0; /* Alinear al fondo */
+  width: 100%; /* Ancho completo */
+  left: 0;
 }

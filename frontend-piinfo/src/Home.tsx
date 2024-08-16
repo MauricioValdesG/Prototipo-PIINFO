@@ -12,6 +12,9 @@ const Home = () => {
           <button className="btn btn-dark mt-3">Acceder al metaverso</button>
         </div>
       </div>
+      <footer className="footer mt-auto py-3">
+        Copyright © Cyberprev SpA 2024
+      </footer>
     </div>
   );
 };

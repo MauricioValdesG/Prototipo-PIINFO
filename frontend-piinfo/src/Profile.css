@@ -48,14 +48,14 @@
   margin-right: 20px; /* Espacio entre la imagen y el texto */
 }
 
-/* .profile-container .form-label {
+.profile-container .form-label {
   font-weight: bold;
 }
 
 .profile-container .form-control {
   border-radius: 5px;
   padding: 0.75rem 1rem;
-} */
+}
 
 .profile-container .btn-dark {
   padding: 0.75rem 2rem;
@@ -66,4 +66,17 @@
 /* Estilo adicional para alinear el contenido */
 .profile-container .content .card {
   text-align: left;
+}
+
+/* Footer */
+.footer {
+  color: #6c757d; /* Color gris para el texto */
+  background-color: transparent; /* Fondo transparente */
+  padding: 1rem; /* Mantén el padding si es necesario */
+  text-align: center; /* Centrar el texto */
+  font-size: 1rem; /* Tamaño de fuente estándar */
+  position: absolute; /* Fijar el footer al fondo */
+  bottom: 0; /* Alinear al fondo */
+  width: 100%; /* Ancho completo */
+  left: 0;
 }

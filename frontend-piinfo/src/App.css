@@ -45,3 +45,16 @@ p {
 .bg-transparent {
   background-color: transparent !important;
 }
+
+/* Footer */
+.App-footer {
+  color: #6c757d; /* Color gris para el texto */
+  background-color: transparent; /* Fondo transparente */
+  padding: 1rem; /* Mantén el padding si es necesario */
+  text-align: start;
+  font-size: 1rem; /* Tamaño de fuente estándar */
+  position: absolute; /* Fijar el footer al fondo */
+  bottom: 0; /* Alinear al fondo */
+  width: 100%; /* Ancho completo */
+  left: 0;
+}
