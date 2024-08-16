@@ -13,7 +13,7 @@ const Subject = () => {
           <Accordion items={courses} />
         </div>
       </div>
-      <footer className="footer mt-auto py-3">
+      <footer className="subject-footer mt-auto py-3">
         Copyright © Cyberprev SpA 2024
       </footer>
     </div>

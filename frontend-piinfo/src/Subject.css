@@ -1,7 +1,15 @@
 /* Encapsular todo en .subject-container */
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; /* Evita el scroll horizontal */
+  overflow-y: auto; /* Permite el scroll vertical */
+}
 .subject-container {
-  background-color: #f0f0f5; /* Fondo claro */
-  min-height: 100vh; /* Asegura que el contenedor ocupe toda la altura de la pantalla */
+  background-color: #f0f0f5;
+  min-height: 100vh; /* Asegura que ocupe al menos el 100% de la altura de la pantalla */
+  overflow-y: auto; /* Permite el scroll vertical si el contenido es largo */
 }
 
 /* Título de la sección */
@@ -70,13 +78,13 @@
 }
 
 /* Footer */
-.footer {
+.subject-footer {
   color: #6c757d; /* Color gris para el texto */
   background-color: transparent; /* Fondo transparente */
   padding: 1rem; /* Mantén el padding si es necesario */
   text-align: center; /* Centrar el texto */
   font-size: 1rem; /* Tamaño de fuente estándar */
-  position: absolute; /* Fijar el footer al fondo */
+  position: relative; /* Fijar el footer al fondo */
   bottom: 0; /* Alinear al fondo */
   width: 100%; /* Ancho completo */
   left: 0;
