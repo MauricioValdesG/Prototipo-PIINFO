@@ -1,0 +1,14 @@
+/* Encapsular todo en .profile-container */
+.home-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  padding-left: 0; /* Asegúrate de que no hay padding que afecte la sidebar */
+  margin-left: 0; /* Asegúrate de que no hay margin que afecte la sidebar */
+  text-align: left;
+}
+
+/* Estilo adicional para alinear el contenido */
+.home-container .content .card {
+  text-align: left;
+}

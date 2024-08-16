@@ -1,71 +1,29 @@
-.dashboard-container body,
-.dashboard-container html {
-  margin: 0;
-  padding: 0;
-  font-family: Arial, sans-serif;
-  background-color: #f4f4f9;
+/* Estilos globales */
+body {
+  font-family: "Arial", sans-serif; /* Puedes cambiar 'Arial' por la fuente que prefieras */
+  color: #333; /* Color de texto predeterminado */
 }
 
-.dashboard-container .dashboard {
-  display: flex;
-  min-height: 100vh;
-  background-color: #f4f4f9;
-}
-
-.dashboard-container .sidebar {
+/* Sidebar.css */
+.sidebar {
   width: 250px;
-  background-color: #000000;
-  color: white;
-  padding: 20px;
-}
-
-.dashboard-container .sidebar h2 {
-  font-size: 1.5em;
-  margin-bottom: 30px;
-}
-
-.dashboard-container .sidebar nav ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-.dashboard-container .sidebar nav ul li {
-  margin: 20px 0;
-}
-
-.dashboard-container .sidebar nav ul li a {
-  color: white;
-  text-decoration: none;
-  font-size: 1.2em;
-}
-
-.dashboard-container .sidebar nav ul li a:hover {
-  text-decoration: underline;
-}
-
-.dashboard-container .content {
-  flex: 1;
-  padding: 40px;
+  padding-top: 20px;
+  box-sizing: border-box;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: flex-start;
+  font-family: inherit; /* Hereda la fuente global */
+  color: inherit; /* Hereda el color global */
 }
 
-.dashboard-container h1 {
-  font-size: 2em;
-  margin-bottom: 20px;
+.nav-link {
+  padding: 10px 15px;
+  font-size: 1.2rem;
+  font-family: inherit; /* Hereda la fuente global */
+  color: inherit; /* Hereda el color global */
 }
 
-.dashboard-container button {
-  font-size: 1em;
-  padding: 10px 20px;
-}
-
-.dashboard-container footer {
-  text-align: center;
-  margin-top: 20px;
-}
-
-.dashboard-container footer p {
-  color: #6c757d;
+.nav-link:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 5px;
 }

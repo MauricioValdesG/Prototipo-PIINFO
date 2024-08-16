@@ -1,0 +1,74 @@
+/* Encapsular todo en .subject-container */
+.subject-container {
+  background-color: #f0f0f5; /* Fondo claro */
+}
+
+/* Título de la sección */
+.subject-container h2 {
+  color: white; /* Color oscuro para el texto del título */
+  margin-bottom: 20px;
+}
+
+/* Acordeón y Tarjetas */
+.subject-container .accordion .card {
+  border: none; /* Eliminar el borde de la tarjeta */
+  margin-bottom: 10px; /* Espaciado entre las tarjetas */
+  background-color: transparent; /* Fondo transparente */
+}
+
+.subject-container .accordion .card-header {
+  background-color: #f8f9fa; /* Fondo claro para la cabecera */
+  border-radius: 10px; /* Bordes redondeados */
+  padding: 1rem; /* Padding en la cabecera */
+  cursor: pointer; /* Indica que es interactivo */
+}
+
+.subject-container .accordion .card-header h5 {
+  margin: 0; /* Quita el margen para mejor alineación */
+}
+
+.subject-container .accordion .card-header button {
+  width: 100%; /* Botón ocupa todo el ancho */
+  text-align: left; /* Texto alineado a la izquierda */
+  font-size: 1.2rem; /* Tamaño de fuente mayor */
+  color: #007bff; /* Color del texto del botón */
+  background-color: transparent; /* Fondo transparente */
+  border: none; /* Quita bordes del botón */
+  padding: 0; /* Sin padding adicional */
+}
+
+.subject-container .accordion .card-header button:hover {
+  text-decoration: underline; /* Subraya al pasar el mouse */
+}
+
+/* Cuerpo de las tarjetas */
+.subject-container .accordion .collapse.show .card-body {
+  padding: 1rem 1.5rem; /* Padding para el cuerpo de la tarjeta */
+  background-color: #ffffff; /* Fondo blanco */
+  border-radius: 10px; /* Bordes redondeados */
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+}
+
+.subject-container .accordion .list-unstyled {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-left: 20px; /* Sangría para los ítems de la lista */
+}
+
+/* Botones */
+.subject-container .btn-primary {
+  margin-top: 10px; /* Margen superior para separar del contenido */
+  padding: 0.5rem 1rem; /* Padding alrededor del botón */
+  border-radius: 5px; /* Bordes redondeados para el botón */
+  font-size: 1rem; /* Tamaño de fuente para el botón */
+}
+
+.subject-container .btn-link {
+  color: #007bff;
+  text-decoration: none;
+  padding: 0;
+}
+
+.subject-container .btn-link:hover {
+  text-decoration: underline;
+}

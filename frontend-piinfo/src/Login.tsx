@@ -16,7 +16,7 @@ const Login: React.FC = () => {
     ).value;
 
     if (email === "example@example.com" && password === "password") {
-      window.location.href = "/main";
+      window.location.href = "/home";
     } else {
       alert("Invalid credentials");
     }

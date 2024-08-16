@@ -1,0 +1,69 @@
+/* Profile.css */
+
+/* Encapsular todo en .profile-container */
+.profile-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  padding-left: 0; /* Asegúrate de que no hay padding que afecte la sidebar */
+  margin-left: 0; /* Asegúrate de que no hay margin que afecte la sidebar */
+}
+
+/* Otras reglas específicas de Profile */
+.profile-container .content {
+  flex-grow: 1;
+  background-color: #f0f0f5;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+/* Estilo para la tarjeta del perfil */
+.profile-container .card {
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.profile-container .card-header {
+  background-color: #f8f9fa;
+  border-bottom: none;
+  padding: 1rem 1.5rem;
+}
+
+.profile-container .card-body {
+  padding: 2rem;
+  text-align: left; /* Alinea el texto a la izquierda */
+}
+
+.profile-container h2 {
+  font-size: 1.75rem;
+  margin-bottom: 1rem;
+  text-align: left; /* Alinea el texto a la izquierda */
+}
+
+.profile-container img.rounded-circle {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  float: left; /* Coloca la imagen a la izquierda */
+  margin-right: 20px; /* Espacio entre la imagen y el texto */
+}
+
+/* .profile-container .form-label {
+  font-weight: bold;
+}
+
+.profile-container .form-control {
+  border-radius: 5px;
+  padding: 0.75rem 1rem;
+} */
+
+.profile-container .btn-dark {
+  padding: 0.75rem 2rem;
+  font-size: 1rem;
+  border-radius: 5px;
+}
+
+/* Estilo adicional para alinear el contenido */
+.profile-container .content .card {
+  text-align: left;
+}
