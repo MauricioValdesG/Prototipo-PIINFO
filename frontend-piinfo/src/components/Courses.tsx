@@ -1,4 +1,83 @@
+const handlePruebaClick = () => {
+  window.open("https://playcanv.as/p/bU9zwDzs/", "_blank");
+};
 const courses = [
+  {
+    title:
+      "Unidad 0: Análisis de Logs de Seguridad para la Detección de Amenazas",
+    content: (
+      <>
+        <h6>Introducción a los Logs de Seguridad</h6>
+        <ul className="list-unstyled">
+          <li>
+            - Fundamentos sobre qué son los logs de seguridad, su importancia, y
+            los diferentes tipos de logs (sistema, red, aplicación, etc.).
+          </li>
+          <li>
+            - Objetivo: Familiarizar al usuario con la estructura básica de un
+            log y el propósito de monitorear eventos de seguridad.
+          </li>
+        </ul>
+
+        <h6>Tipos Comunes de Amenazas y Patrones de Logs</h6>
+        <ul className="list-unstyled">
+          <li>
+            - Descripción de las amenazas comunes (e.g., intentos de acceso no
+            autorizado, malware, exfiltración de datos) y cómo se reflejan estas
+            actividades en los logs.
+          </li>
+          <li>
+            - Objetivo: Enseñar a los usuarios a identificar patrones de
+            actividad sospechosa en los logs.
+          </li>
+        </ul>
+
+        <h6>Herramientas y Técnicas de Análisis de Logs</h6>
+        <ul className="list-unstyled">
+          <li>
+            - Introducción a las herramientas de monitoreo y análisis de logs,
+            cómo aplicar filtros y búsquedas para localizar eventos específicos.
+          </li>
+          <li>
+            - Objetivo: Equipar al usuario con técnicas prácticas para analizar
+            grandes volúmenes de logs y detectar actividades anómalas.
+          </li>
+        </ul>
+
+        <h6>Casos de Estudio en Análisis de Logs</h6>
+        <ul className="list-unstyled">
+          <li>
+            - Presentación de casos reales o simulados de incidentes de
+            seguridad, donde los usuarios deben analizar los logs y determinar
+            la naturaleza de la amenaza.
+          </li>
+          <li>
+            - Objetivo: Ofrecer una experiencia práctica en la identificación de
+            amenazas a través de la revisión de logs en escenarios realistas.
+          </li>
+        </ul>
+
+        <h6>Test de Evaluación: Identificación de Amenazas en Logs</h6>
+        <ul className="list-unstyled">
+          <li>
+            - Una prueba en la que los usuarios deben revisar una serie de logs
+            y seleccionar aquellos que representan amenazas, utilizando lo
+            aprendido en las subunidades anteriores.
+          </li>
+          <li>
+            - Objetivo: Evaluar la capacidad del usuario para aplicar sus
+            conocimientos en un entorno simulado, detectando y reaccionando ante
+            posibles amenazas.
+          </li>
+        </ul>
+
+        <button className="btn btn-primary" onClick={handlePruebaClick}>
+          Realizar prueba de la unidad
+        </button>
+      </>
+    ),
+  },
+
   {
     title: "Unidad 1: Introducción a la ciberseguridad",
     content: (

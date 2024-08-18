@@ -10,14 +10,18 @@ body {
   background-color: #f0f0f5;
   min-height: 100vh; /* Asegura que ocupe al menos el 100% de la altura de la pantalla */
   overflow-y: auto; /* Permite el scroll vertical si el contenido es largo */
+  display: flex; /* Flexbox para alinear verticalmente */
+  flex-direction: column; /* Alinear verticalmente */
+  padding-left: 0; /* Asegúrate de que no hay padding que afecte la sidebar */
+  margin-left: 0; /* Asegúrate de que no hay margin que afecte la sidebar */
 }
 
 /* Título de la sección */
 .subject-container h4 {
   color: #333333; /* Color gris oscuro para el título */
   margin-bottom: 20px;
-  text-align: left; /* Alinear el título a la izquierda */
-  font-size: 2rem; /* Tamaño de fuente mayor */
+  text-align: center; /* Alinear el título a la izquierda */
+  font-size: 3rem; /* Tamaño de fuente mayor */
   font-weight: bold; /* Hacer el título en negrita */
 }
 
@@ -78,14 +82,13 @@ body {
 }
 
 /* Footer */
-.subject-footer {
+.subject-container .footer {
   color: #6c757d; /* Color gris para el texto */
   background-color: transparent; /* Fondo transparente */
-  padding: 1rem; /* Mantén el padding si es necesario */
-  text-align: center; /* Centrar el texto */
+  text-align: end; /* Alinear el texto a la derecha */
   font-size: 1rem; /* Tamaño de fuente estándar */
-  position: relative; /* Fijar el footer al fondo */
+  padding: 1rem; /* Padding para el footer */
+  position: absolute; /* Fijar el footer al fondo */
   bottom: 0; /* Alinear al fondo */
-  width: 100%; /* Ancho completo */
-  left: 0;
+  z-index: auto;
 }

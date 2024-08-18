@@ -11,7 +11,7 @@ function App() {
       <NavBar />
       <header className="App-header">
         <div className="content">
-          <h1>Cyberverse Skills</h1>
+          <h1>Cyberverse</h1>
           <p>El metaverso de la ciberseguridad</p>
           <button className="btn btn-dark btn-small" onClick={handleLoginClick}>
             Iniciar sesión

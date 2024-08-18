@@ -9,13 +9,13 @@ const Subject = () => {
       <div className="d-flex flex-grow-1">
         <Dashboard />
         <div className="content p-4 flex-grow-1">
-          <h2>Cursos actuales</h2>
+          <h4>Cursos actuales</h4>
           <Accordion items={courses} />
         </div>
+        <footer className="footer mt-auto py-3">
+          Copyright © Cyberprev SpA 2024
+        </footer>
       </div>
-      <footer className="subject-footer mt-auto py-3">
-        Copyright © Cyberprev SpA 2024
-      </footer>
     </div>
   );
 };

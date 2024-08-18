@@ -28,7 +28,7 @@ const Profile = () => {
   };
 
   return (
-    <div className="profile-container d-flex flex-column vh-100 ">
+    <div className="profile-container d-flex flex-column vh-100">
       <div className="d-flex flex-grow-1">
         <Dashboard />
         <div className="content p-4 flex-grow-1">
