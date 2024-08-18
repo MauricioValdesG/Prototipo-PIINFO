@@ -1,0 +1,27 @@
+/* Encapsular todo en .profile-container */
+.home-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  padding-left: 0; /* Asegúrate de que no hay padding que afecte la sidebar */
+  margin-left: 0; /* Asegúrate de que no hay margin que afecte la sidebar */
+  text-align: left;
+}
+
+/* Estilo adicional para alinear el contenido */
+.home-container .content .card {
+  text-align: left;
+}
+
+/* Footer */
+.footer {
+  color: #6c757d; /* Color gris para el texto */
+  background-color: transparent; /* Fondo transparente */
+  padding: 1rem; /* Mantén el padding si es necesario */
+  text-align: center; /* Centrar el texto */
+  font-size: 1rem; /* Tamaño de fuente estándar */
+  position: absolute; /* Fijar el footer al fondo */
+  bottom: 0; /* Alinear al fondo */
+  width: 100%; /* Ancho completo */
+  left: 0;
+}
